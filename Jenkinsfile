@@ -24,7 +24,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/ADirin/javafx_with_mariadb.git'
+                git branch: 'master', url: 'https://github.com/TheZink/OTPWeek7Demo.git'
             }
         }
 
