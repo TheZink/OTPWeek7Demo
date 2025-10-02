@@ -3,7 +3,7 @@ import javafx.scene.control.Label;
 
 public class Database {
 
-    private static final String URL = "jdbc:mysql://192.168.1.112:3306/javafx_mariadb";
+    private static final String URL = "jdbc:mysql://host.docker.internal:3306/javafx_mariadb";
     private static final String USER = "root";
     private static final String PASSWORD = "root";
 
